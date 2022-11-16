@@ -89,10 +89,10 @@ Baby.prototype.play = function() {
 /* 
   TASK 4
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. this can be bound to the Window, meaning it is bound globablly. This would happen if you use arrow syntax. Worst way to bind this.
+  2. Bound implicitly is through dot notation. this is bound to the object on the left of the dot
+  3. constructor function binds this to the new objects that are created from the function
+  4. bound explicitly by using call, apply, or bind
 */
 
 ///////// END OF CHALLENGE /////////
